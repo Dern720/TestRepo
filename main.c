@@ -13,5 +13,8 @@ int main()
     add(number1, number2);
     printf("Number 1 value after adding value 2 (%d) = %d\n", *number2, *number1);
 
+    subt(number1, number2)
+    printf("Number 1 value after subtracting value 2 (%d) = %d\n", *number2, *number1);
+
     return 0;
 }
