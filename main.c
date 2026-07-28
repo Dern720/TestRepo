@@ -16,5 +16,24 @@ int main()
     subt(number1, number2);
     printf("Number 1 value after subtracting value 2 (%d) = %d\n", *number2, *number1);
 
+
+    int **arra = (int **)calloc(4,sizeof(int));
+
+    for (int k = 0; k < 4; k++)
+    {
+        arra[k] = (int*)calloc(4, sizeof(int));
+    }
+
+    for (int i = 0; i < 4 ; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            printf("%d", arra[i][j]);
+        }
+        printf("\n");
+    }
+
+
+
     return 0;
 }
